@@ -10,6 +10,7 @@ import '@solana/wallet-adapter-react-ui/styles.css';
 import { TokenLaunchpad } from './components/TokenLaunchpad'
 
 
+
 function App() {
   return (
     <div>
@@ -25,6 +26,7 @@ function App() {
                 <WalletDisconnectButton />
               </div>
               <TokenLaunchpad></TokenLaunchpad>
+              {/* <CreateMint></CreateMint> */}
             </WalletModalProvider>
         </WalletProvider>
       </ConnectionProvider>
